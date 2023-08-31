@@ -1,4 +1,3 @@
-import { notFound } from 'next/navigation'
 import React from 'react'
 
 import { getCategories } from '#/app/api/categories/getCategories'

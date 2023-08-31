@@ -1,6 +1,6 @@
 'use client'
 
-import { MenuAlt2Icon, XIcon } from '@heroicons/react/solid'
+import { Bars3BottomLeftIcon, XMarkIcon } from '@heroicons/react/24/solid'
 import clsx from 'clsx'
 import Link from 'next/link'
 import { useSelectedLayoutSegment } from 'next/navigation'
@@ -41,9 +41,9 @@ export function GlobalNav() {
           Menu
         </div>
         {isOpen ? (
-          <XIcon className="block w-6 text-gray-400" />
+          <XMarkIcon className="block w-6 text-gray-400" />
         ) : (
-          <MenuAlt2Icon className="block w-6 text-gray-400" />
+          <Bars3BottomLeftIcon className="block w-6 text-gray-400" />
         )}
       </button>
 

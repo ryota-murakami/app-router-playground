@@ -1,5 +1,3 @@
-import { notFound } from 'next/navigation'
-
 import { getCategory } from '#/app/api/categories/getCategories'
 import { Boundary } from '#/ui/boundary'
 

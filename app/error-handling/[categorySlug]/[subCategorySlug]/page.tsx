@@ -1,5 +1,3 @@
-import { notFound } from 'next/navigation'
-
 import { getCategory } from '#/app/api/categories/getCategories'
 import BuggyButton from '#/ui/buggy-button'
 import { SkeletonCard } from '#/ui/skeleton-card'

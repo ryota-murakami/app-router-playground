@@ -8,6 +8,7 @@ export async function GET(request: NextRequest) {
     request.nextUrl.searchParams.get('collection') || 'collection'
   revalidatePath(path)
   revalidateTag(collection)
+
   console.log('revalidated', path, collection)
   return NextResponse.json({
     cache: 'no-store',
