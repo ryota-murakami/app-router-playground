@@ -4,9 +4,7 @@ module.exports = {
   // https://github.com/tailwindlabs/prettier-plugin-tailwindcss#installation
   plugins: [require('prettier-plugin-tailwindcss')],
 
-  semi: true,
+  semi: false,
 
   singleQuote: true,
-
-  trailingComma: 'all',
 }
