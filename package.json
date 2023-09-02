@@ -16,7 +16,7 @@
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*": "prettier --write --ignore-unknown"
+    "*": "prettier --write --ignore-unknown ."
   },
   "dependencies": {
     "@heroicons/react": "2.0.18",
