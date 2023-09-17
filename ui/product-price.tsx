@@ -5,7 +5,7 @@ import { ProductCurrencySymbol } from '#/ui/product-currency-symbol'
 import { ProductDeal } from '#/ui/product-deal'
 import { ProductLighteningDeal } from '#/ui/product-lightening-deal'
 
-function isDiscount(obj: any): obj is { percent: number; expires?: number } {
+function isDiscount(obj: any): obj is { expires?: number; percent: number } {
   return typeof obj?.percent === 'number'
 }
 
@@ -25,11 +25,11 @@ function formatDiscount(
 }
 
 export const ProductPrice = ({
-  price,
   discount: discountRaw,
+  price,
 }: {
-  price: Dinero<number>
   discount: Product['discount']
+  price: Dinero<number>
 }) => {
   const discount = formatDiscount(price, discountRaw)
 

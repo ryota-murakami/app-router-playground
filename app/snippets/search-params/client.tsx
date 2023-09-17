@@ -9,8 +9,8 @@ export default function Client({
 }: {
   options: {
     name: string
-    value: string
     items: string[]
+    value: string
   }[]
 }) {
   const searchParams = useSearchParams()!

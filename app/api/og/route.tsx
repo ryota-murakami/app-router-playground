@@ -53,8 +53,8 @@ export async function GET(req: NextRequest): Promise<Response | ImageResponse> {
       {
         fonts: [
           {
-            data: await interSemiBold,
             name: 'Inter',
+            data: await interSemiBold,
             style: 'normal',
             weight: 400,
           },

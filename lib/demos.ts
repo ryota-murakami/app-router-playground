@@ -1,106 +1,106 @@
 export type Item = {
   name: string
-  slug: string
   description?: string
+  slug: string
 }
 
 export const demos: { name: string; items: Item[] }[] = [
   {
+    name: 'Layouts',
     items: [
       {
-        description: 'Create UI that is shared across routes',
         name: 'Nested Layouts',
+        description: 'Create UI that is shared across routes',
         slug: 'layouts',
       },
       {
-        description: 'Organize routes without affecting URL paths',
         name: 'Grouped Layouts',
+        description: 'Organize routes without affecting URL paths',
         slug: 'route-groups',
       },
       {
-        description: 'Render multiple pages in the same layout',
         name: 'Parallel Routes',
+        description: 'Render multiple pages in the same layout',
         slug: 'parallel-routes',
       },
     ],
-    name: 'Layouts',
   },
   {
+    name: 'File Conventions',
     items: [
       {
+        name: 'Loading',
         description:
           'Create meaningful Loading UI for specific parts of an app',
-        name: 'Loading',
         slug: 'loading',
       },
       {
-        description: 'Create Error UI for specific parts of an app',
         name: 'Error',
+        description: 'Create Error UI for specific parts of an app',
         slug: 'error-handling',
       },
       {
-        description: 'Create Not Found UI for specific parts of an app',
         name: 'Not Found',
+        description: 'Create Not Found UI for specific parts of an app',
         slug: 'not-found',
       },
     ],
-    name: 'File Conventions',
   },
   {
+    name: 'Data Fetching',
     items: [
       {
+        name: 'Streaming with Suspense',
         description:
           'Streaming data fetching from the server with React Suspense',
-        name: 'Streaming with Suspense',
         slug: 'streaming',
       },
       {
-        description: 'Generate static pages',
         name: 'Static Data',
+        description: 'Generate static pages',
         slug: 'ssg',
       },
       {
-        description: 'Server-render pages',
         name: 'Dynamic Data',
+        description: 'Server-render pages',
         slug: 'ssr',
       },
       {
-        description: 'Get the best of both worlds between static & dynamic',
         name: 'Incremental Static Regeneration',
+        description: 'Get the best of both worlds between static & dynamic',
         slug: 'isr',
       },
     ],
-    name: 'Data Fetching',
   },
   {
+    name: 'Components',
     items: [
       {
+        name: 'Client Context',
         description:
           'Pass context between Client Components that cross Server/Client Component boundary',
-        name: 'Client Context',
         slug: 'context',
       },
     ],
-    name: 'Components',
   },
   {
+    name: 'Misc',
     items: [
       {
-        description: 'Preview the routing hooks available in Client Components',
         name: 'Client Component Hooks',
+        description: 'Preview the routing hooks available in Client Components',
         slug: 'hooks',
       },
       {
-        description: 'Preview the supported styling solutions',
         name: 'CSS and CSS-in-JS',
+        description: 'Preview the supported styling solutions',
         slug: 'styling',
       },
       {
-        description: 'A collection of useful App Router code snippets',
         name: 'Code Snippets',
+        description: 'A collection of useful App Router code snippets',
         slug: 'snippets',
       },
     ],
-    name: 'Misc',
   },
 ]

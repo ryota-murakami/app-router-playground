@@ -7,13 +7,13 @@ import { useSelectedLayoutSegment } from 'next/navigation'
 import type { Item } from '#/ui/tab-group'
 
 export const Tab = ({
-  path,
-  parallelRoutesKey,
   item,
+  parallelRoutesKey,
+  path,
 }: {
-  path: string
-  parallelRoutesKey?: string
   item: Item
+  parallelRoutesKey?: string
+  path: string
 }) => {
   const segment = useSelectedLayoutSegment(parallelRoutesKey)
 

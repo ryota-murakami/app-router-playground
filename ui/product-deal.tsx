@@ -3,13 +3,13 @@ import { toUnit, type Dinero } from 'dinero.js'
 import { ProductCurrencySymbol } from '#/ui/product-currency-symbol'
 
 export const ProductDeal = ({
-  price: priceRaw,
   discount: discountRaw,
+  price: priceRaw,
 }: {
-  price: Dinero<number>
   discount: {
     amount: Dinero<number>
   }
+  price: Dinero<number>
 }) => {
   const discount = toUnit(discountRaw.amount)
   const price = toUnit(priceRaw)

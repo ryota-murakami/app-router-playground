@@ -11,11 +11,11 @@ import { ProductRating } from '#/ui/product-rating'
 import { ProductUsedPrice } from '#/ui/product-used-price'
 
 export const ProductCard = ({
-  product,
   href,
+  product,
 }: {
-  product: Product
   href: string
+  product: Product
 }) => {
   const price = dinero(product.price as DineroSnapshot<number>)
 

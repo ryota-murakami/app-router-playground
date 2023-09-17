@@ -8,11 +8,11 @@ import { TabGroup } from '#/ui/tab-group'
 const title = 'Hooks'
 
 export const metadata = {
-  openGraph: {
-    images: [`/api/og?title=${title}`],
-    title,
-  },
   title,
+  openGraph: {
+    title,
+    images: [`/api/og?title=${title}`],
+  },
 }
 
 export default async function Layout({

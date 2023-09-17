@@ -3,13 +3,13 @@
 import { useCountUp } from 'use-count-up'
 
 const CountUp = ({
-  start,
-  end,
   duration = 1,
+  end,
+  start,
 }: {
-  start: number
-  end: number
   duration?: number
+  end: number
+  start: number
 }) => {
   const { value } = useCountUp({
     decimalPlaces: 1,

@@ -2,11 +2,11 @@ import type { Product } from '#/app/api/products/product'
 import { ProductCard } from '#/ui/product-card'
 
 export async function RecommendedProducts({
-  path,
   data,
+  path,
 }: {
-  path: string
   data: Promise<Response>
+  path: string
 }) {
   const products = (await data.then(async (res) => res.json())) as Product[]
 

@@ -58,11 +58,11 @@ async function UserSpecificDetails({ productId }: { productId: string }) {
 }
 
 export function Pricing({
-  product,
   cartCount,
+  product,
 }: {
-  product: Product
   cartCount: string
+  product: Product
 }) {
   const price = dinero(product.price as DineroSnapshot<number>)
 

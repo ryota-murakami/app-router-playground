@@ -4,8 +4,8 @@ import { ExternalLink } from '#/ui/external-link'
 
 const items = [
   {
-    description: 'Update searchParams using `useRouter` and `<Link>`',
     name: 'Updating searchParams',
+    description: 'Update searchParams using `useRouter` and `<Link>`',
     slug: 'search-params',
   },
 ]

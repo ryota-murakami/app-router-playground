@@ -10,11 +10,11 @@ import ContextClickCounter from './context-click-counter'
 const title = 'Client Context'
 
 export const metadata = {
-  openGraph: {
-    images: [`/api/og?title=${title}`],
-    title,
-  },
   title,
+  openGraph: {
+    title,
+    images: [`/api/og?title=${title}`],
+  },
 }
 
 export default async function Layout({

@@ -5,13 +5,13 @@ import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 
 export default function ActiveLink({
+  children,
   isActive,
   searchParams,
-  children,
 }: {
+  children: React.ReactNode
   isActive: boolean
   searchParams: string
-  children: React.ReactNode
 }) {
   const pathname = usePathname()
 

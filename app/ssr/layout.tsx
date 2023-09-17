@@ -5,11 +5,11 @@ import { TabGroup } from '#/ui/tab-group'
 const title = 'Dynamic Data'
 
 export const metadata = {
-  openGraph: {
-    images: [`/api/og?title=${title}`],
-    title,
-  },
   title,
+  openGraph: {
+    title,
+    images: [`/api/og?title=${title}`],
+  },
 }
 export default function Layout({ children }: { children: React.ReactNode }) {
   const ids = [{ id: '1' }, { id: '2' }, { id: '3' }]

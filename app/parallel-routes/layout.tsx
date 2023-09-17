@@ -1,20 +1,20 @@
 const title = 'Parallel Routes'
 
 export const metadata = {
-  openGraph: {
-    images: [`/api/og?title=${title}`],
-    title,
-  },
   title,
+  openGraph: {
+    title,
+    images: [`/api/og?title=${title}`],
+  },
 }
 
 export default function Layout({
-  children,
   audience,
+  children,
   views,
 }: {
-  children: React.ReactNode
   audience: React.ReactNode
+  children: React.ReactNode
   views: React.ReactNode
 }) {
   return (

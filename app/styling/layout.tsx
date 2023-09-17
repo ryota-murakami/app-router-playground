@@ -5,11 +5,11 @@ import { TabGroup } from '#/ui/tab-group'
 const title = 'Styling'
 
 export const metadata = {
-  openGraph: {
-    images: [`/api/og?title=${title}`],
-    title,
-  },
   title,
+  openGraph: {
+    title,
+    images: [`/api/og?title=${title}`],
+  },
 }
 
 const items = [

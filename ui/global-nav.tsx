@@ -77,11 +77,11 @@ export function GlobalNav() {
 }
 
 function GlobalNavItem({
-  item,
   close,
+  item,
 }: {
-  item: Item
   close: () => false | void
+  item: Item
 }) {
   const segment = useSelectedLayoutSegment()
   const isActive = item.slug === segment

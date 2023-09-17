@@ -1,11 +1,11 @@
 'use client'
 
 export default function Footer({
-  reactVersion,
   nextVersion,
+  reactVersion,
 }: {
-  reactVersion: string
   nextVersion: string
+  reactVersion: string
 }) {
   return (
     <div className="col-start-2 col-end-4 mt-28 flex items-center justify-between">

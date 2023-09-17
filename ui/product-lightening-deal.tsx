@@ -4,14 +4,14 @@ import { type Dinero } from 'dinero.js'
 import { ProductDeal } from '#/ui/product-deal'
 
 export const ProductLighteningDeal = ({
-  price,
   discount,
+  price,
 }: {
-  price: Dinero<number>
   discount: {
     amount: Dinero<number>
     expires?: number
   }
+  price: Dinero<number>
 }) => {
   const date = add(new Date(), { days: discount.expires })
 

@@ -5,12 +5,12 @@ import CountUp from '#/ui/count-up'
 
 type Item = {
   name: string
-  type: 'server' | 'client'
-  size: number
   children?: Item[]
+  size: number
+  type: 'server' | 'client'
 }
 
-const List = ({ items, depth }: { items: Item[]; depth: number }) => {
+const List = ({ depth, items }: { depth: number; items: Item[] }) => {
   return (
     <div>
       {items.map((item, i) => {

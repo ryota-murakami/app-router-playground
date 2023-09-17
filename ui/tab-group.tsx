@@ -1,20 +1,20 @@
 import { Tab } from '#/ui/tab'
 
 export type Item = {
-  text: string
-  slug?: string
-  segment?: string
   parallelRoutesKey?: string
+  segment?: string
+  slug?: string
+  text: string
 }
 
 export const TabGroup = ({
-  path,
-  parallelRoutesKey,
   items,
+  parallelRoutesKey,
+  path,
 }: {
-  path: string
-  parallelRoutesKey?: string
   items: Item[]
+  parallelRoutesKey?: string
+  path: string
 }) => {
   return (
     <div className="flex flex-wrap items-center gap-2">

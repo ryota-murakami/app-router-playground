@@ -8,18 +8,18 @@ import Client from './client'
 
 const options = [
   {
-    items: ['asc', 'desc'],
     name: 'Sort',
+    items: ['asc', 'desc'],
     value: 'sort',
   },
   {
-    items: ['1', '2', '3'],
     name: 'Page',
+    items: ['1', '2', '3'],
     value: 'page',
   },
   {
-    items: ['10', '25', '100'],
     name: 'Items Per Page',
+    items: ['10', '25', '100'],
     value: 'perPage',
   },
 ]
