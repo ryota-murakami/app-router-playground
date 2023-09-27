@@ -56,8 +56,8 @@ devDependencies:
     specifier: 8.44.3
     version: 8.44.3
   '@types/ms':
-    specifier: 0.7.31
-    version: 0.7.31
+    specifier: 0.7.32
+    version: 0.7.32
   '@types/node':
     specifier: 20.7.0
     version: 20.7.0
@@ -1979,8 +1979,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/ms@0.7.31:
-    resolution: {integrity: sha512-iiUgKzV9AuaEkZqkOLDIvlQiL6ltuZd9tGcW3gwpnX8JbuiuhFlEGmmFXEXkN50Cvq7Os88IY2v0dkDqXYWVgA==}
+  /@types/ms@0.7.32:
+    resolution: {integrity: sha512-xPSg0jm4mqgEkNhowKgZFBNtwoEwF6gJ4Dhww+GFpm3IgtNseHQZ5IqdNwnquZEoANxyDAKDRAdVo4Z72VvD/g==}
     dev: true
 
   /@types/mute-stream@0.0.1:
