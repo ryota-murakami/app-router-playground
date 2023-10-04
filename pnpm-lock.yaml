@@ -42,8 +42,8 @@ dependencies:
     specifier: 3.0.1
     version: 3.0.1(react@18.2.0)
   vercel:
-    specifier: 32.4.0
-    version: 32.4.0
+    specifier: 32.4.1
+    version: 32.4.1
 
 devDependencies:
   '@tailwindcss/forms':
@@ -2232,8 +2232,8 @@ packages:
       ts-morph: 12.0.0
     dev: false
 
-  /@vercel/next@4.0.9:
-    resolution: {integrity: sha512-h6dhXi7FrDM6SJIwhWP0xM4DFOVQOMUfo3pK8igSdKPk1Z45R8lg8LgzRJbQBX2xR6FQYNaa2PtEZDtd1orbBw==}
+  /@vercel/next@4.0.10:
+    resolution: {integrity: sha512-+Z+R7Dev1OFU9Rm8R4h34W0/RdSHeZ4dvkv50lS7TneRj1Ab1zLlqupyG0tEdSP5/Nvb/OZ4ixvTiLqw9oo8oA==}
     dependencies:
       '@vercel/nft': 0.24.2
     transitivePeerDependencies:
@@ -6473,8 +6473,8 @@ packages:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
     dev: false
 
-  /vercel@32.4.0:
-    resolution: {integrity: sha512-rdU85mygB6JoIFDzX6d/3QPhJtYwrQn1oECuOeO/cKp3u3C/MHRVaWEa0zhozt+PJVtXgE9oDKaetVqEwvWh5g==}
+  /vercel@32.4.1:
+    resolution: {integrity: sha512-cULmLvceDaluXz2usPtPYhb9y/jwjWolAjBBbG1DLGQmxVlnHVHTOJrYPaq2ioujQpU0yi92+RQPdzjzOY6aEg==}
     engines: {node: '>= 16'}
     hasBin: true
     dependencies:
@@ -6482,7 +6482,7 @@ packages:
       '@vercel/fun': 1.1.0
       '@vercel/go': 3.0.3
       '@vercel/hydrogen': 1.0.1
-      '@vercel/next': 4.0.9
+      '@vercel/next': 4.0.10
       '@vercel/node': 3.0.7
       '@vercel/python': 4.0.2
       '@vercel/redwood': 2.0.4
