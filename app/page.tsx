@@ -4,16 +4,13 @@ import React from 'react'
 
 import { demos } from '#/lib/demos'
 
+import FreeSection from '../components/FreeSection'
+
 export default function Page() {
-  const [mounted, setMounted] = React.useState(false)
   return (
     <div className="space-y-8">
       <h1 className="text-xl font-medium text-gray-300">Examples</h1>
-      <section className="grid content-center h-40 w-hull">
-        <button className="" onClick={() => setMounted(() => !mounted)}>
-          {mounted ? 'mountend' : 'unMount'}
-        </button>
-      </section>
+      <FreeSection>FREE</FreeSection>
       <div className="space-y-10 text-white">
         {demos.map((section) => {
           return (

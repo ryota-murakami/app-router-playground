@@ -30,6 +30,7 @@
     "server-only": "0.0.1",
     "styled-components": "6.0.8",
     "styled-jsx": "^5.1.2",
+    "tailwind-merge": "^1.14.0",
     "use-count-up": "3.0.1",
     "vercel": "32.4.1"
   },
@@ -45,6 +46,7 @@
     "@typescript-eslint/parser": "6.7.4",
     "@vercel/git-hooks": "1.0.0",
     "autoprefixer": "10.4.16",
+    "daisyui": "^3.9.2",
     "eslint": "8.50.0",
     "eslint-config-next": "13.5.4",
     "eslint-config-ts-prefixer": "1.9.1",
