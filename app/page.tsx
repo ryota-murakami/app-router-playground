@@ -1,12 +1,19 @@
+'use client'
 import Link from 'next/link'
+import React from 'react'
 
 import { demos } from '#/lib/demos'
 
 export default function Page() {
+  const [mounted, setMounted] = React.useState(false)
   return (
     <div className="space-y-8">
       <h1 className="text-xl font-medium text-gray-300">Examples</h1>
-
+      <section className="grid content-center h-40 w-hull">
+        <button className="" onClick={() => setMounted(() => !mounted)}>
+          {mounted ? 'mountend' : 'unMount'}
+        </button>
+      </section>
       <div className="space-y-10 text-white">
         {demos.map((section) => {
           return (
@@ -14,7 +21,6 @@ export default function Page() {
               <div className="text-xs font-semibold uppercase tracking-wider text-gray-400">
                 {section.name}
               </div>
-
               <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
                 {section.items.map((item) => {
                   return (
