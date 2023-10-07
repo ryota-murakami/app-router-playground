@@ -10,7 +10,14 @@ export default function Page() {
   return (
     <div className="space-y-8">
       <h1 className="text-xl font-medium text-gray-300">Examples</h1>
-      <FreeSection>FREE</FreeSection>
+      <FreeSection className="artboard h-[500px] space-y-8">
+        <button className="inline-block cursor-pointer rounded-md bg-gray-800 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-900">
+          Button
+        </button>
+        <button className="btn">Button</button>
+        <button className="btn btn-primary">Button</button>
+        <button className="btn w-64 rounded-full">Button</button>
+      </FreeSection>
       <div className="space-y-10 text-white">
         {demos.map((section) => {
           return (

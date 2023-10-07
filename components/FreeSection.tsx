@@ -8,7 +8,7 @@ const FreeSection: React.FC<ComponentProps<'section'>> = ({
   ...rest
 }) => {
   return (
-    <section className={cn('h-[300px] w-hull', className)} {...rest}>
+    <section className={cn('w-hull', className)} {...rest}>
       {children}
     </section>
   )
