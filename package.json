@@ -7,16 +7,14 @@
     "lint": "eslint . --ext .ts,.tsx,.js,jsx,cjs,mjs",
     "lint:fix": "eslint . --ext .ts,.tsx,.js,jsx,cjs,mjs --fix",
     "lint-staged": "lint-staged",
-    "prettier": "prettier --write --ignore-unknown .",
+    "prettier": "prettier --ignore-unknown --write .",
     "prettier:check": "prettier --check --ignore-unknown .",
     "start": "next start",
-    "typecheck": "tsc --noEmit"
-  },
-  "git": {
-    "pre-commit": "lint-staged"
+    "typecheck": "tsc --noEmit",
+    "prepare": "husky install"
   },
   "lint-staged": {
-    "*": "prettier --write --ignore-unknown ."
+    "*": "prettier --ignore-unknown --write"
   },
   "dependencies": {
     "@heroicons/react": "2.0.18",
@@ -54,6 +52,7 @@
     "eslint-plugin-import": "2.28.1",
     "eslint-plugin-prettier": "5.0.0",
     "eslint-plugin-sort-keys-custom-order": "^1.0.5",
+    "husky": "^8.0.0",
     "lint-staged": "14.0.1",
     "postcss": "8.4.31",
     "prettier": "3.0.3",
