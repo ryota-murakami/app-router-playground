@@ -23,6 +23,11 @@ export const demos: { name: string; items: Item[] }[] = [
         description: 'Render multiple pages in the same layout',
         slug: 'parallel-routes',
       },
+      {
+        name: 'Route Handlers',
+        description: 'Route Handlers',
+        slug: 'route-handlers',
+      },
     ],
   },
   {
