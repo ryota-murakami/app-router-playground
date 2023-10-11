@@ -1,5 +1,3 @@
-import type { ServerComponent } from 'react'
-
 interface Post {
   id: number
   title: string
@@ -11,7 +9,7 @@ const getAllPost = async (): Promise<Post[]> => {
   return res.json()
 }
 
-const Page: ServerComponent = async () => {
+const Page = async () => {
   const posts = await getAllPost()
   return (
     <div id="route-handlers" className="container grid place-content-center">
