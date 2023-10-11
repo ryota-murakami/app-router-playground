@@ -4,7 +4,18 @@ export type Item = {
   slug: string
 }
 
-export const demos: { name: string; items: Item[] }[] = [
+export type Demo = {
+  name:
+    | 'Layouts'
+    | 'File Conventions'
+    | 'Data Fetching'
+    | 'Static Data'
+    | 'Components'
+    | 'Misc'
+  items: Item[]
+}
+
+export const demos: Demo[] = [
   {
     name: 'Layouts',
     items: [
@@ -22,11 +33,6 @@ export const demos: { name: string; items: Item[] }[] = [
         name: 'Parallel Routes',
         description: 'Render multiple pages in the same layout',
         slug: 'parallel-routes',
-      },
-      {
-        name: 'Route Handlers',
-        description: 'Route Handlers',
-        slug: 'route-handlers',
       },
     ],
   },
@@ -48,6 +54,12 @@ export const demos: { name: string; items: Item[] }[] = [
         name: 'Not Found',
         description: 'Create Not Found UI for specific parts of an app',
         slug: 'not-found',
+      },
+      {
+        name: 'Route Handlers',
+        description:
+          'Route Handlers are defined in a route.js|ts file inside the app directory.',
+        slug: 'route-handlers',
       },
     ],
   },
