@@ -10,7 +10,7 @@ export default function Page() {
   return (
     <div className="space-y-8">
       <h1 className="text-xl font-medium text-gray-300">Examples</h1>
-      <FreeSection className="artboard h-[500px] space-y-8">
+      <FreeSection className="artboard h-[500px] space-x-8 flex">
         <button className="inline-block cursor-pointer rounded-md bg-gray-800 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-900">
           Button
         </button>
