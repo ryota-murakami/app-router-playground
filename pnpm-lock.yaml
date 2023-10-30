@@ -39,8 +39,8 @@ dependencies:
     specifier: ^5.1.2
     version: 5.1.2(react@18.2.0)
   tailwind-merge:
-    specifier: ^1.14.0
-    version: 1.14.0
+    specifier: ^2.0.0
+    version: 2.0.0
   use-count-up:
     specifier: 3.0.1
     version: 3.0.1(react@18.2.0)
@@ -103,9 +103,6 @@ devDependencies:
   eslint-plugin-prettier:
     specifier: 5.0.1
     version: 5.0.1(@types/eslint@8.44.6)(eslint-config-prettier@9.0.0)(eslint@8.52.0)(prettier@3.0.3)
-  eslint-plugin-sort-keys-custom-order:
-    specifier: ^1.0.5
-    version: 1.0.5(eslint@8.52.0)
   husky:
     specifier: ^8.0.0
     version: 8.0.3
@@ -145,6 +142,13 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.14.0
+
+  /@babel/runtime@7.23.2:
+    resolution: {integrity: sha512-mM8eg4yl5D6i3lu2QKPuPH4FArvJ8KhTofbE7jwMUv9KX5mBvwPAqnV3MlyBNqdp9RyRKP6Yck8TrfYrPvX3bg==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      regenerator-runtime: 0.14.0
+    dev: false
 
   /@cspotcode/source-map-support@0.8.1:
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -2381,15 +2385,6 @@ packages:
       resolve: 2.0.0-next.4
       semver: 6.3.1
       string.prototype.matchall: 4.0.9
-    dev: true
-
-  /eslint-plugin-sort-keys-custom-order@1.0.5(eslint@8.52.0):
-    resolution: {integrity: sha512-WdZjCY/nyOjr4GnMvQTiH225sQ0+LvmoZBB7cPkSvhbx7FxKCk3pwn8UTKquSdSRsvPiM2qoUvIOPDAEdOJdkA==}
-    engines: {node: '>=0.10.0'}
-    peerDependencies:
-      eslint: ^8.28.0
-    dependencies:
-      eslint: 8.52.0
     dev: true
 
   /eslint-scope@7.2.2:
@@ -4712,8 +4707,10 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /tailwind-merge@1.14.0:
-    resolution: {integrity: sha512-3mFKyCo/MBcgyOTlrY8T7odzZFx+w+qKSMAmdFzRvqBfLlSigU6TZnlFHK0lkMwj9Bj8OYU+9yW9lmGuS0QEnQ==}
+  /tailwind-merge@2.0.0:
+    resolution: {integrity: sha512-WO8qghn9yhsldLSg80au+3/gY9E4hFxIvQ3qOmlpXnqpDKoMruKfi/56BbbMg6fHTQJ9QD3cc79PoWqlaQE4rw==}
+    dependencies:
+      '@babel/runtime': 7.23.2
     dev: false
 
   /tailwindcss@3.3.5:
