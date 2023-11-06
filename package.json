@@ -1,4 +1,5 @@
 {
+  "name": "app-router-playground",
   "private": true,
   "packageManager": "pnpm@8.9.2",
   "scripts": {
