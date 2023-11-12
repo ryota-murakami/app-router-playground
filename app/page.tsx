@@ -1,14 +1,31 @@
-'use client'
+import type { Metadata } from 'next'
 import Link from 'next/link'
 import React from 'react'
 
 import { demos } from '#/lib/demos'
 
 import FreeSection from '../components/FreeSection'
+export const metadata: Metadata = {
+  title: {
+    default: 'Next.js App Router',
+    template: '%s | Next.js App Router',
+  },
+  description:
+    'A playground to explore new Next.js App Router features such as nested layouts, instant loading states, streaming, and component level data fetching.',
+  openGraph: {
+    title: 'Next.js App Router Playground',
+    description:
+      'A playground to explore new Next.js App Router features such as nested layouts, instant loading states, streaming, and component level data fetching.',
+    images: [`/api/og?title=Next.js App Router`],
+  },
+  twitter: {
+    card: 'summary_large_image',
+  },
+}
 
 export default function Page() {
   return (
-    <div className="space-y-8">
+    <div id="Page" className="space-y-8">
       <h1 className="text-xl font-medium text-gray-300">Examples</h1>
       <FreeSection className="artboard h-[500px] space-x-8 flex">
         <button className="inline-block cursor-pointer rounded-md bg-gray-800 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-900">

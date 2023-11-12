@@ -118,6 +118,11 @@ export const demos: Demo[] = [
         description: 'A collection of useful App Router code snippets',
         slug: 'snippets',
       },
+      {
+        name: 'Redux',
+        description: 'integration redux-toolkit and app router',
+        slug: 'redux',
+      },
     ],
   },
 ]

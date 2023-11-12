@@ -4,6 +4,7 @@ import { configureStore } from '@reduxjs/toolkit'
 import counterReducer from './counterSlice'
 
 export const store = configureStore({
+  devTools: process.env.NODE_ENV === 'development' ? true : false,
   reducer: {
     counter: counterReducer,
   },
