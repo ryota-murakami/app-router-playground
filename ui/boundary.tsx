@@ -41,6 +41,7 @@ export const Boundary = ({
 }) => {
   return (
     <div
+      id="Boundary"
       className={clsx('relative rounded-lg border border-dashed', {
         'border-gray-700': color === 'default',
         'border-vercel-blue': color === 'blue',

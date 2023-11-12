@@ -1,5 +1,5 @@
 'use client'
-
+// https://github.com/vercel/next.js/tree/canary/examples/with-redux
 /* Core */
 import { Provider } from 'react-redux'
 
