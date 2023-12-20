@@ -65,8 +65,8 @@ devDependencies:
     specifier: 0.5.10
     version: 0.5.10(tailwindcss@3.3.7)
   '@types/eslint':
-    specifier: 8.44.9
-    version: 8.44.9
+    specifier: 8.56.0
+    version: 8.56.0
   '@types/ms':
     specifier: 0.7.34
     version: 0.7.34
@@ -111,7 +111,7 @@ devDependencies:
     version: 2.29.1(@typescript-eslint/parser@6.15.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
   eslint-plugin-prettier:
     specifier: 5.0.1
-    version: 5.0.1(@types/eslint@8.44.9)(eslint@8.56.0)(prettier@3.1.1)
+    version: 5.0.1(@types/eslint@8.56.0)(eslint@8.56.0)(prettier@3.1.1)
   husky:
     specifier: ^8.0.0
     version: 8.0.3
@@ -691,8 +691,8 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: false
 
-  /@types/eslint@8.44.9:
-    resolution: {integrity: sha512-6yBxcvwnnYoYT1Uk2d+jvIfsuP4mb2EdIxFnrPABj5a/838qe5bGkNLFOiipX4ULQ7XVQvTxOh7jO+BTAiqsEw==}
+  /@types/eslint@8.56.0:
+    resolution: {integrity: sha512-FlsN0p4FhuYRjIxpbdXovvHQhtlG05O1GG/RNWvdAxTboR438IOTwmrY/vLA+Xfgg06BTkP045M3vpFwTMv1dg==}
     dependencies:
       '@types/estree': 1.0.1
       '@types/json-schema': 7.0.12
@@ -2228,7 +2228,7 @@ packages:
       eslint: 8.56.0
       eslint-import-resolver-typescript: 3.6.1(@typescript-eslint/parser@6.15.0)(eslint-import-resolver-node@0.3.9)(eslint-plugin-import@2.29.1)(eslint@8.56.0)
       eslint-plugin-import: 2.29.1(@typescript-eslint/parser@6.15.0)(eslint-import-resolver-typescript@3.6.1)(eslint@8.56.0)
-      eslint-plugin-prettier: 5.0.1(@types/eslint@8.44.9)(eslint@8.56.0)(prettier@3.1.1)
+      eslint-plugin-prettier: 5.0.1(@types/eslint@8.56.0)(eslint@8.56.0)(prettier@3.1.1)
       inquirer: 9.2.11
       prettier: 3.1.1
       typescript: 5.3.3
@@ -2357,7 +2357,7 @@ packages:
       semver: 6.3.1
     dev: true
 
-  /eslint-plugin-prettier@5.0.1(@types/eslint@8.44.9)(eslint@8.56.0)(prettier@3.1.1):
+  /eslint-plugin-prettier@5.0.1(@types/eslint@8.56.0)(eslint@8.56.0)(prettier@3.1.1):
     resolution: {integrity: sha512-m3u5RnR56asrwV/lDC4GHorlW75DsFfmUcjfCYylTUs85dBRnB7VM6xG8eCMJdeDRnppzmxZVf1GEPJvl1JmNg==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -2371,7 +2371,7 @@ packages:
       eslint-config-prettier:
         optional: true
     dependencies:
-      '@types/eslint': 8.44.9
+      '@types/eslint': 8.56.0
       eslint: 8.56.0
       prettier: 3.1.1
       prettier-linter-helpers: 1.0.0
