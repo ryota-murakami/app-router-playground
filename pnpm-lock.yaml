@@ -34,7 +34,7 @@ dependencies:
     version: 18.2.0(react@18.2.0)
   react-redux:
     specifier: ^9.1.0
-    version: 9.1.0(@types/react@18.2.63)(react@18.2.0)(redux@5.0.1)
+    version: 9.1.0(@types/react@18.2.64)(react@18.2.0)(redux@5.0.1)
   redux:
     specifier: ^5.0.1
     version: 5.0.1
@@ -74,8 +74,8 @@ devDependencies:
     specifier: 20.11.25
     version: 20.11.25
   '@types/react':
-    specifier: 18.2.63
-    version: 18.2.63
+    specifier: 18.2.64
+    version: 18.2.64
   '@types/react-dom':
     specifier: 18.2.20
     version: 18.2.20
@@ -612,7 +612,7 @@ packages:
     dependencies:
       immer: 10.0.3
       react: 18.2.0
-      react-redux: 9.1.0(@types/react@18.2.63)(react@18.2.0)(redux@5.0.1)
+      react-redux: 9.1.0(@types/react@18.2.64)(react@18.2.0)(redux@5.0.1)
       redux: 5.0.1
       redux-thunk: 3.1.0(redux@5.0.1)
       reselect: 5.0.1
@@ -735,11 +735,11 @@ packages:
   /@types/react-dom@18.2.20:
     resolution: {integrity: sha512-HXN/biJY8nv20Cn9ZbCFq3liERd4CozVZmKbaiZ9KiKTrWqsP7eoGDO6OOGvJQwoVFuiXaiJ7nBBjiFFbRmQMQ==}
     dependencies:
-      '@types/react': 18.2.63
+      '@types/react': 18.2.64
     dev: true
 
-  /@types/react@18.2.63:
-    resolution: {integrity: sha512-ppaqODhs15PYL2nGUOaOu2RSCCB4Difu4UFrP4I3NHLloXC/ESQzQMi9nvjfT1+rudd0d2L3fQPJxRSey+rGlQ==}
+  /@types/react@18.2.64:
+    resolution: {integrity: sha512-MlmPvHgjj2p3vZaxbQgFUQFvD8QiZwACfGqEdDSWou5yISWxDQ4/74nCAwsUiX7UFLKZz3BbVSPj+YxeoGGCfg==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.3
@@ -4386,7 +4386,7 @@ packages:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
     dev: true
 
-  /react-redux@9.1.0(@types/react@18.2.63)(react@18.2.0)(redux@5.0.1):
+  /react-redux@9.1.0(@types/react@18.2.64)(react@18.2.0)(redux@5.0.1):
     resolution: {integrity: sha512-6qoDzIO+gbrza8h3hjMA9aq4nwVFCKFtY2iLxCtVT38Swyy2C/dJCGBXHeHLtx6qlg/8qzc2MrhOeduf5K32wQ==}
     peerDependencies:
       '@types/react': ^18.2.25
@@ -4401,7 +4401,7 @@ packages:
       redux:
         optional: true
     dependencies:
-      '@types/react': 18.2.63
+      '@types/react': 18.2.64
       '@types/use-sync-external-store': 0.0.3
       react: 18.2.0
       redux: 5.0.1
