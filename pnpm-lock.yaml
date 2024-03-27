@@ -60,10 +60,10 @@ dependencies:
 devDependencies:
   '@tailwindcss/forms':
     specifier: 0.5.7
-    version: 0.5.7(tailwindcss@3.4.1)
+    version: 0.5.7(tailwindcss@3.4.2)
   '@tailwindcss/typography':
     specifier: 0.5.10
-    version: 0.5.10(tailwindcss@3.4.1)
+    version: 0.5.10(tailwindcss@3.4.2)
   '@types/eslint':
     specifier: 8.56.6
     version: 8.56.6
@@ -128,8 +128,8 @@ devDependencies:
     specifier: 0.5.12
     version: 0.5.12(prettier@3.2.5)
   tailwindcss:
-    specifier: 3.4.1
-    version: 3.4.1
+    specifier: 3.4.2
+    version: 3.4.2
   typescript:
     specifier: 5.4.3
     version: 5.4.3
@@ -640,16 +640,16 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@tailwindcss/forms@0.5.7(tailwindcss@3.4.1):
+  /@tailwindcss/forms@0.5.7(tailwindcss@3.4.2):
     resolution: {integrity: sha512-QE7X69iQI+ZXwldE+rzasvbJiyV/ju1FGHH0Qn2W3FKbuYtqp8LKcy6iSw79fVUT5/Vvf+0XgLCeYVG+UV6hOw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.4.1
+      tailwindcss: 3.4.2
     dev: true
 
-  /@tailwindcss/typography@0.5.10(tailwindcss@3.4.1):
+  /@tailwindcss/typography@0.5.10(tailwindcss@3.4.2):
     resolution: {integrity: sha512-Pe8BuPJQJd3FfRnm6H0ulKIGoMEQS+Vq01R6M5aCrFB/ccR/shT+0kXLjouGC1gFLm9hopTFN+DMP0pfwRWzPw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -658,7 +658,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.4.1
+      tailwindcss: 3.4.2
     dev: true
 
   /@tootallnate/once@2.0.0:
@@ -3452,8 +3452,8 @@ packages:
       '@pkgjs/parseargs': 0.11.0
     dev: true
 
-  /jiti@1.19.3:
-    resolution: {integrity: sha512-5eEbBDQT/jF1xg6l36P+mWGGoH9Spuy0PCdSr2dtWRDGC6ph/w9ZCL4lmESW8f8F7MwT3XKescfP0wnZWAKL9w==}
+  /jiti@1.21.0:
+    resolution: {integrity: sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==}
     hasBin: true
     dev: true
 
@@ -4935,8 +4935,8 @@ packages:
       '@babel/runtime': 7.24.0
     dev: false
 
-  /tailwindcss@3.4.1:
-    resolution: {integrity: sha512-qAYmXRfk3ENzuPBakNK0SRrUDipP8NQnEY6772uDhflcQz5EhRdD7JNZxyrFHVQNCwULPBn6FNPp9brpO7ctcA==}
+  /tailwindcss@3.4.2:
+    resolution: {integrity: sha512-1kIzVecynNKMhhX8mPTOwTkkVHupUTMbEvk4n1ByxdM8sQTJ8fE41Y4TdORG6GmiVXHhfZ/++0hiIFJFwfadsA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -4948,7 +4948,7 @@ packages:
       fast-glob: 3.3.1
       glob-parent: 6.0.2
       is-glob: 4.0.3
-      jiti: 1.19.3
+      jiti: 1.21.0
       lilconfig: 2.1.0
       micromatch: 4.0.5
       normalize-path: 3.0.0
