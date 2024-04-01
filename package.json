@@ -41,7 +41,7 @@
     "@tailwindcss/typography": "0.5.12",
     "@types/eslint": "8.56.6",
     "@types/ms": "0.7.34",
-    "@types/node": "20.11.30",
+    "@types/node": "20.12.2",
     "@types/react": "18.2.73",
     "@types/react-dom": "18.2.23",
     "@typescript-eslint/eslint-plugin": "7.0.0",
