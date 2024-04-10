@@ -8,3 +8,4 @@ updates:
     ignore:
       - dependency-name: 'dinero.js'
         versions: ['2.x']
+      - dependency-name: 'eslint'
