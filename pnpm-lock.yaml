@@ -54,8 +54,8 @@ dependencies:
     specifier: 3.0.1
     version: 3.0.1(react@18.3.1)
   vercel:
-    specifier: 34.1.8
-    version: 34.1.8
+    specifier: 34.1.9
+    version: 34.1.9
 
 devDependencies:
   '@tailwindcss/forms':
@@ -724,8 +724,8 @@ packages:
       '@types/node': 20.12.9
     dev: true
 
-  /@types/node@14.18.33:
-    resolution: {integrity: sha512-qelS/Ra6sacc4loe/3MSjXNL1dNQ/GjxNHVzuChwMfmk7HuycRLVQN2qNY3XahK+fZc5E2szqQSKUyAF0E+2bg==}
+  /@types/node@16.18.11:
+    resolution: {integrity: sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==}
     dev: false
 
   /@types/node@20.12.9:
@@ -1014,8 +1014,8 @@ packages:
       ts-morph: 12.0.0
     dev: false
 
-  /@vercel/next@4.2.7:
-    resolution: {integrity: sha512-twZaOXWmBKxs/S7Os56aQ8Ps7xNO6vhfesAym5XMHHuAA2Z+H2461uZFQnLP4HtKtEW/7g0AzJqlfWF2otVL9A==}
+  /@vercel/next@4.2.8:
+    resolution: {integrity: sha512-UaF1nWjqfj6T9nERD7MCKXhrFUgPZza+mQz7og3/wTcf17JS/Uu6Qvcf+5h5Xae2/7HQO7+ZNlj/EA9BIdIsvw==}
     dependencies:
       '@vercel/nft': 0.26.4
     transitivePeerDependencies:
@@ -1045,13 +1045,13 @@ packages:
       - supports-color
     dev: false
 
-  /@vercel/node@3.0.28:
-    resolution: {integrity: sha512-GQggDgsBgSJLDPlkddmSPOgfvrgRlxnQzhae64b21X0C5GHRmN8c1p5qVghjeNft8cIEIBETVOnSe8eBvqWYxQ==}
+  /@vercel/node@3.1.0:
+    resolution: {integrity: sha512-Ghx663fSKJoe9NxjEU9i5d9+QcPPEw4HWkSThCCO9OK0Ov2KdeZEBcfZe8OYLiFDY10LN0EPe2Ur3NmofcwyNA==}
     dependencies:
       '@edge-runtime/node-utils': 2.3.0
       '@edge-runtime/primitives': 4.1.0
       '@edge-runtime/vm': 3.2.0
-      '@types/node': 14.18.33
+      '@types/node': 16.18.11
       '@vercel/build-utils': 8.0.0
       '@vercel/error-utils': 2.0.2
       '@vercel/nft': 0.26.4
@@ -1065,7 +1065,7 @@ packages:
       node-fetch: 2.6.9
       path-to-regexp: 6.2.1
       ts-morph: 12.0.0
-      ts-node: 10.9.1(@types/node@14.18.33)(typescript@4.9.5)
+      ts-node: 10.9.1(@types/node@16.18.11)(typescript@4.9.5)
       typescript: 4.9.5
       undici: 5.26.5
     transitivePeerDependencies:
@@ -5069,7 +5069,7 @@ packages:
       code-block-writer: 10.1.1
     dev: false
 
-  /ts-node@10.9.1(@types/node@14.18.33)(typescript@4.9.5):
+  /ts-node@10.9.1(@types/node@16.18.11)(typescript@4.9.5):
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -5088,7 +5088,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.4
-      '@types/node': 14.18.33
+      '@types/node': 16.18.11
       acorn: 8.10.0
       acorn-walk: 8.2.0
       arg: 4.1.3
@@ -5290,8 +5290,8 @@ packages:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
     dev: false
 
-  /vercel@34.1.8:
-    resolution: {integrity: sha512-PmT+fgTmwUvT8ZV1BvbMTpxossdLHaKJxLcaepBqAWwOdeM0TR8bVjXTpH/HEmhGL2RNhn8a2l8/cjZNVPfsJw==}
+  /vercel@34.1.9:
+    resolution: {integrity: sha512-Dtr+gZ8QWQJG4WGiPgkVT3C8Hbg/7QUK7B2GQRCFZ8tRJ/JsiyOPhFoFxmUYNRbIv9M82sxGlCQ6m+kbmWSQRw==}
     engines: {node: '>= 16'}
     hasBin: true
     dependencies:
@@ -5299,8 +5299,8 @@ packages:
       '@vercel/fun': 1.1.0
       '@vercel/go': 3.1.1
       '@vercel/hydrogen': 1.0.2
-      '@vercel/next': 4.2.7
-      '@vercel/node': 3.0.28
+      '@vercel/next': 4.2.8
+      '@vercel/node': 3.1.0
       '@vercel/python': 4.2.0
       '@vercel/redwood': 2.0.8
       '@vercel/remix-builder': 2.1.5
