@@ -45,8 +45,8 @@ dependencies:
     specifier: 6.1.11
     version: 6.1.11(react-dom@18.3.1)(react@18.3.1)
   styled-jsx:
-    specifier: ^5.1.3
-    version: 5.1.3(react@18.3.1)
+    specifier: ^5.1.4
+    version: 5.1.4(react@18.3.1)
   tailwind-merge:
     specifier: ^2.3.0
     version: 2.3.0
@@ -4883,8 +4883,8 @@ packages:
       react: 18.3.1
     dev: false
 
-  /styled-jsx@5.1.3(react@18.3.1):
-    resolution: {integrity: sha512-qLRShOWTE/Mf6Bvl72kFeKBl8N2Eq9WIFfoAuvbtP/6tqlnj1SCjv117n2MIjOPpa1jTorYqLJgsHKy5Y3ziww==}
+  /styled-jsx@5.1.4(react@18.3.1):
+    resolution: {integrity: sha512-rG5JtKrL5wnOM1emyljDlqB98OnOIyvI+fCjfVQgM6bGYb3nac26A5H25i7HkiEJJXtLbsOyg/D6d5ATKKZBXg==}
     engines: {node: '>= 12.0.0'}
     peerDependencies:
       '@babel/core': '*'
