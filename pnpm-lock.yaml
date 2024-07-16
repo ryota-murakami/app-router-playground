@@ -60,10 +60,10 @@ dependencies:
 devDependencies:
   '@tailwindcss/forms':
     specifier: 0.5.7
-    version: 0.5.7(tailwindcss@3.4.5)
+    version: 0.5.7(tailwindcss@3.4.6)
   '@tailwindcss/typography':
     specifier: 0.5.13
-    version: 0.5.13(tailwindcss@3.4.5)
+    version: 0.5.13(tailwindcss@3.4.6)
   '@types/eslint':
     specifier: 8.56.7
     version: 8.56.7
@@ -128,8 +128,8 @@ devDependencies:
     specifier: 0.6.5
     version: 0.6.5(prettier@3.3.3)
   tailwindcss:
-    specifier: 3.4.5
-    version: 3.4.5
+    specifier: 3.4.6
+    version: 3.4.6
   typescript:
     specifier: 5.5.3
     version: 5.5.3
@@ -646,16 +646,16 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@tailwindcss/forms@0.5.7(tailwindcss@3.4.5):
+  /@tailwindcss/forms@0.5.7(tailwindcss@3.4.6):
     resolution: {integrity: sha512-QE7X69iQI+ZXwldE+rzasvbJiyV/ju1FGHH0Qn2W3FKbuYtqp8LKcy6iSw79fVUT5/Vvf+0XgLCeYVG+UV6hOw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1'
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.4.5
+      tailwindcss: 3.4.6
     dev: true
 
-  /@tailwindcss/typography@0.5.13(tailwindcss@3.4.5):
+  /@tailwindcss/typography@0.5.13(tailwindcss@3.4.6):
     resolution: {integrity: sha512-ADGcJ8dX21dVVHIwTRgzrcunY6YY9uSlAHHGVKvkA+vLc5qLwEszvKts40lx7z0qc4clpjclwLeK5rVCV2P/uw==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
@@ -664,7 +664,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.4.5
+      tailwindcss: 3.4.6
     dev: true
 
   /@tootallnate/once@2.0.0:
@@ -4951,8 +4951,8 @@ packages:
     resolution: {integrity: sha512-49AwoOQNKdqKPd9CViyH5wJoSKsCDjUlzL8DxuGp3P1FsGY36NJDAa18jLZcaHAUUuTj+JB8IAo8zWgBNvBF7A==}
     dev: false
 
-  /tailwindcss@3.4.5:
-    resolution: {integrity: sha512-DlTxttYcogpDfx3tf/8jfnma1nfAYi2cBUYV2YNoPPecwmO3YGiFlOX9D8tGAu+EDF38ryBzvrDKU/BLMsUwbw==}
+  /tailwindcss@3.4.6:
+    resolution: {integrity: sha512-1uRHzPB+Vzu57ocybfZ4jh5Q3SdlH7XW23J5sQoM9LhE9eIOlzxer/3XPSsycvih3rboRsvt0QCmzSrqyOYUIA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
