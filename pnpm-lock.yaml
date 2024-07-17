@@ -42,8 +42,8 @@ dependencies:
     specifier: 0.0.1
     version: 0.0.1
   styled-components:
-    specifier: 6.1.11
-    version: 6.1.11(react-dom@18.3.1)(react@18.3.1)
+    specifier: 6.1.12
+    version: 6.1.12(react-dom@18.3.1)(react@18.3.1)
   styled-jsx:
     specifier: ^5.1.6
     version: 5.1.6(react@18.3.1)
@@ -4855,8 +4855,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /styled-components@6.1.11(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-Ui0jXPzbp1phYij90h12ksljKGqF8ncGx+pjrNPsSPhbUUjWT2tD1FwGo2LF6USCnbrsIhNngDfodhxbegfEOA==}
+  /styled-components@6.1.12(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-n/O4PzRPhbYI0k1vKKayfti3C/IGcPf+DqcrOB7O/ab9x4u/zjqraneT5N45+sIe87cxrCApXM8Bna7NYxwoTA==}
     engines: {node: '>= 16'}
     peerDependencies:
       react: '>= 16.8.0'
