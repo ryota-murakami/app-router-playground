@@ -34,7 +34,7 @@
     "styled-jsx": "^5.1.6",
     "tailwind-merge": "^2.4.0",
     "use-count-up": "3.0.1",
-    "vercel": "35.2.2"
+    "vercel": "35.2.3"
   },
   "devDependencies": {
     "@tailwindcss/forms": "0.5.7",
