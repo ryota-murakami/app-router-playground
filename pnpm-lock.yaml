@@ -48,8 +48,8 @@ dependencies:
     specifier: ^5.1.6
     version: 5.1.6(react@18.3.1)
   tailwind-merge:
-    specifier: ^2.5.1
-    version: 2.5.1
+    specifier: ^2.5.2
+    version: 2.5.2
   use-count-up:
     specifier: 3.0.1
     version: 3.0.1(react@18.3.1)
@@ -4855,8 +4855,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /tailwind-merge@2.5.1:
-    resolution: {integrity: sha512-1zKDdExKvNltulO+J0x/Rqv40xQn78FHsEQVn3rxt8e4HdebRIT6o6zGeLYlGuxd3Efue9Y69qsp8vKwEhuEeg==}
+  /tailwind-merge@2.5.2:
+    resolution: {integrity: sha512-kjEBm+pvD+6eAwzJL2Bi+02/9LFLal1Gs61+QB7HvTfQQ0aXwC5LGT8PEt1gS0CWKktKe6ysPTAy3cBC5MeiIg==}
     dev: false
 
   /tailwindcss@3.4.9:
