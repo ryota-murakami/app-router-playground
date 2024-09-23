@@ -60,10 +60,10 @@ dependencies:
 devDependencies:
   '@tailwindcss/forms':
     specifier: 0.5.9
-    version: 0.5.9(tailwindcss@3.4.12)
+    version: 0.5.9(tailwindcss@3.4.13)
   '@tailwindcss/typography':
     specifier: 0.5.15
-    version: 0.5.15(tailwindcss@3.4.12)
+    version: 0.5.15(tailwindcss@3.4.13)
   '@types/eslint':
     specifier: 8.56.7
     version: 8.56.7
@@ -128,8 +128,8 @@ devDependencies:
     specifier: 0.6.6
     version: 0.6.6(prettier@3.3.3)
   tailwindcss:
-    specifier: 3.4.12
-    version: 3.4.12
+    specifier: 3.4.13
+    version: 3.4.13
   typescript:
     specifier: 5.6.2
     version: 5.6.2
@@ -667,16 +667,16 @@ packages:
       tslib: 2.6.2
     dev: false
 
-  /@tailwindcss/forms@0.5.9(tailwindcss@3.4.12):
+  /@tailwindcss/forms@0.5.9(tailwindcss@3.4.13):
     resolution: {integrity: sha512-tM4XVr2+UVTxXJzey9Twx48c1gcxFStqn1pQz0tRsX8o3DvxhN5oY5pvyAbUx7VTaZxpej4Zzvc6h+1RJBzpIg==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || >= 4.0.0-alpha.20'
     dependencies:
       mini-svg-data-uri: 1.4.4
-      tailwindcss: 3.4.12
+      tailwindcss: 3.4.13
     dev: true
 
-  /@tailwindcss/typography@0.5.15(tailwindcss@3.4.12):
+  /@tailwindcss/typography@0.5.15(tailwindcss@3.4.13):
     resolution: {integrity: sha512-AqhlCXl+8grUz8uqExv5OTtgpjuVIwFTSXTrh8y9/pw6q2ek7fJ+Y8ZEVw7EB2DCcuCOtEjf9w3+J3rzts01uA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders || >=4.0.0-alpha.20'
@@ -685,7 +685,7 @@ packages:
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       postcss-selector-parser: 6.0.10
-      tailwindcss: 3.4.12
+      tailwindcss: 3.4.13
     dev: true
 
   /@tootallnate/once@2.0.0:
@@ -5041,8 +5041,8 @@ packages:
     resolution: {integrity: sha512-kjEBm+pvD+6eAwzJL2Bi+02/9LFLal1Gs61+QB7HvTfQQ0aXwC5LGT8PEt1gS0CWKktKe6ysPTAy3cBC5MeiIg==}
     dev: false
 
-  /tailwindcss@3.4.12:
-    resolution: {integrity: sha512-Htf/gHj2+soPb9UayUNci/Ja3d8pTmu9ONTfh4QY8r3MATTZOzmv6UYWF7ZwikEIC8okpfqmGqrmDehua8mF8w==}
+  /tailwindcss@3.4.13:
+    resolution: {integrity: sha512-KqjHOJKogOUt5Bs752ykCeiwvi0fKVkr5oqsFNt/8px/tA8scFPIlkygsf6jXrfCqGHz7VflA6+yytWuM+XhFw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
