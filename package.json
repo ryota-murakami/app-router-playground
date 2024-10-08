@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@heroicons/react": "2.1.5",
-    "@reduxjs/toolkit": "^2.2.7",
+    "@reduxjs/toolkit": "^2.2.8",
     "clsx": "2.1.1",
     "date-fns": "4.1.0",
     "dinero.js": "2.0.0-alpha.10",
