@@ -54,8 +54,8 @@ dependencies:
     specifier: 3.0.1
     version: 3.0.1(react@18.3.1)
   vercel:
-    specifier: 37.9.0
-    version: 37.9.0
+    specifier: 37.11.0
+    version: 37.11.0
 
 devDependencies:
   '@tailwindcss/forms':
@@ -5323,8 +5323,8 @@ packages:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
     dev: false
 
-  /vercel@37.9.0:
-    resolution: {integrity: sha512-uAayU4fnLqBdxyKay4xhcQVPspUYJeAGRGwTTtKgjjIbe474gONmaEFx644XfnpPQSSqHsIcu4iKnNnRI3NXgQ==}
+  /vercel@37.11.0:
+    resolution: {integrity: sha512-LCTKg4zxfHFBYULLcIEEi9CxFnywd0y0cUd23wdajqBKSBcEqrR2z77v0uU1G5dzlvqmL7dpAHXYu55jNU1GeA==}
     engines: {node: '>= 16'}
     hasBin: true
     dependencies:
