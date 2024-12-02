@@ -51,7 +51,7 @@
     "daisyui": "^4.12.14",
     "eslint": "8.57.0",
     "eslint-config-next": "15.0.3",
-    "eslint-config-ts-prefixer": "1.14.0",
+    "eslint-config-ts-prefixer": "1.14.1",
     "eslint-import-resolver-typescript": "3.6.3",
     "eslint-plugin-import": "2.31.0",
     "eslint-plugin-prettier": "5.2.1",
