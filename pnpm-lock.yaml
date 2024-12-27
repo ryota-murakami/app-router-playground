@@ -98,8 +98,8 @@ devDependencies:
     specifier: 8.57.0
     version: 8.57.0
   eslint-config-next:
-    specifier: 15.1.2
-    version: 15.1.2(eslint@8.57.0)(typescript@5.7.2)
+    specifier: 15.1.3
+    version: 15.1.3(eslint@8.57.0)(typescript@5.7.2)
   eslint-config-ts-prefixer:
     specifier: 1.14.1
     version: 1.14.1(@typescript-eslint/eslint-plugin@7.0.0)(@typescript-eslint/parser@6.21.0)(eslint-import-resolver-typescript@3.7.0)(eslint-plugin-import@2.31.0)(eslint-plugin-prettier@5.2.1)(eslint@8.57.0)(prettier@3.4.2)(typescript@5.7.2)
@@ -488,8 +488,8 @@ packages:
     resolution: {integrity: sha512-S1qaj25Wru2dUpcIZMjxeMVSwkt8BK4dmWHHiBuRstcIyOsMapqT4A4jSB6onvqeygkSSmOkyny9VVx8JIGamQ==}
     dev: false
 
-  /@next/eslint-plugin-next@15.1.2:
-    resolution: {integrity: sha512-sgfw3+WdaYOGPKCvM1L+UucBmRfh8V2Ygefp7ELON0+0vY7uohQwXXnVWg3rY7mXDKharQR3o7uedpfvnU2hlQ==}
+  /@next/eslint-plugin-next@15.1.3:
+    resolution: {integrity: sha512-oeP1vnc5Cq9UoOb8SYHAEPbCXMzOgG70l+Zfd+Ie00R25FOm+CCVNrcIubJvB1tvBgakXE37MmqSycksXVPRqg==}
     dependencies:
       fast-glob: 3.3.1
     dev: true
@@ -2284,8 +2284,8 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /eslint-config-next@15.1.2(eslint@8.57.0)(typescript@5.7.2):
-    resolution: {integrity: sha512-PrMm1/4zWSJ689wd/ypWIR5ZF1uvmp3EkgpgBV1Yu6PhEobBjXMGgT8bVNelwl17LXojO8D5ePFRiI4qXjsPRA==}
+  /eslint-config-next@15.1.3(eslint@8.57.0)(typescript@5.7.2):
+    resolution: {integrity: sha512-wGYlNuWnh4ujuKtZvH+7B2Z2vy9nONZE6ztd+DKF7hAsIabkrxmD4TzYHzASHENo42lmz2tnT2B+zN2sOHvpJg==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -2293,7 +2293,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@next/eslint-plugin-next': 15.1.2
+      '@next/eslint-plugin-next': 15.1.3
       '@rushstack/eslint-patch': 1.10.4
       '@typescript-eslint/eslint-plugin': 7.0.0(@typescript-eslint/parser@6.21.0)(eslint@8.57.0)(typescript@5.7.2)
       '@typescript-eslint/parser': 6.21.0(eslint@8.57.0)(typescript@5.7.2)
