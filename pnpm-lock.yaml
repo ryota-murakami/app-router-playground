@@ -54,8 +54,8 @@ dependencies:
     specifier: 3.0.1
     version: 3.0.1(react@18.3.1)
   vercel:
-    specifier: 39.2.6
-    version: 39.2.6
+    specifier: 39.3.0
+    version: 39.3.0
 
 devDependencies:
   '@tailwindcss/forms':
@@ -1102,8 +1102,8 @@ packages:
       - supports-color
     dev: false
 
-  /@vercel/python@4.6.0:
-    resolution: {integrity: sha512-43bpxcas3d3ep+F5zdziva6gW1LBc71YGQiG/XmajGlDv4cCNO312Vf8BE5SYafb5ft6rwl69+WOoFwGkI26qA==}
+  /@vercel/python@4.7.0:
+    resolution: {integrity: sha512-mkHmzYYZBLFLdvSdgrnBl1Qc1+LI5YIafSNJOj8oW4YU8vvALLMbwgZp42pZnyXW0e/3uHcesiRp4P0jSB0wyg==}
     dev: false
 
   /@vercel/redwood@2.1.12:
@@ -5142,8 +5142,8 @@ packages:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
     dev: false
 
-  /vercel@39.2.6:
-    resolution: {integrity: sha512-s3T8eEXeNcMcgU+NsHS2/1B7Pj1aWip+dy0IQqbDwy1ArFFI0S4IzpN2+XxfG8Y6fPJnLGUyywTe/nbFU7SWPg==}
+  /vercel@39.3.0:
+    resolution: {integrity: sha512-VyGaH5tnVVsgACcbU4PCRyQBDg/SST7/HQBaIXNnmOW7Ngjcn04wamjPgYAdFUGroiTm+ZpmNbCO1DQXzNeTjQ==}
     engines: {node: '>= 16'}
     hasBin: true
     dependencies:
@@ -5153,7 +5153,7 @@ packages:
       '@vercel/hydrogen': 1.0.11
       '@vercel/next': 4.4.2
       '@vercel/node': 5.0.2
-      '@vercel/python': 4.6.0
+      '@vercel/python': 4.7.0
       '@vercel/redwood': 2.1.12
       '@vercel/remix-builder': 5.0.2
       '@vercel/ruby': 2.1.0
