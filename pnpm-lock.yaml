@@ -71,8 +71,8 @@ devDependencies:
     specifier: 2.1.0
     version: 2.1.0
   '@types/node':
-    specifier: 22.10.9
-    version: 22.10.9
+    specifier: 22.10.10
+    version: 22.10.10
   '@types/react':
     specifier: 18.3.12
     version: 18.3.12
@@ -306,7 +306,7 @@ packages:
       '@inquirer/figures': 1.0.5
       '@inquirer/type': 1.5.2
       '@types/mute-stream': 0.0.4
-      '@types/node': 22.10.9
+      '@types/node': 22.10.10
       '@types/wrap-ansi': 3.0.0
       ansi-escapes: 4.3.2
       cli-spinners: 2.9.2
@@ -745,15 +745,15 @@ packages:
   /@types/mute-stream@0.0.4:
     resolution: {integrity: sha512-CPM9nzrCPPJHQNA9keH9CVkVI+WR5kMa+7XEs5jcGQ0VoAGnLv242w8lIVgwAEfmE4oufJRaTc9PNLQl0ioAow==}
     dependencies:
-      '@types/node': 22.10.9
+      '@types/node': 22.10.10
     dev: true
 
   /@types/node@16.18.11:
     resolution: {integrity: sha512-3oJbGBUWuS6ahSnEq1eN2XrCyf4YsWI8OyCvo7c64zQJNplk3mO84t53o8lfTk+2ji59g5ycfc6qQ3fdHliHuA==}
     dev: false
 
-  /@types/node@22.10.9:
-    resolution: {integrity: sha512-Ir6hwgsKyNESl/gLOcEz3krR4CBGgliDqBQ2ma4wIhEx0w+xnoeTq3tdrNw15kU3SxogDjOgv9sqdtLW8mIHaw==}
+  /@types/node@22.10.10:
+    resolution: {integrity: sha512-X47y/mPNzxviAGY5TcYPtYL8JsY3kAq2n8fMmKoRCxq/c4v4pyGNCzM2R6+M5/umG4ZfHuT+sgqDYqWc9rJ6ww==}
     dependencies:
       undici-types: 6.20.0
     dev: true
