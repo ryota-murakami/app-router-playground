@@ -54,8 +54,8 @@ dependencies:
     specifier: 3.0.1
     version: 3.0.1(react@18.3.1)
   vercel:
-    specifier: 41.0.2
-    version: 41.0.2
+    specifier: 41.0.3
+    version: 41.0.3
 
 devDependencies:
   '@tailwindcss/forms':
@@ -1046,8 +1046,8 @@ packages:
       ts-morph: 12.0.0
     dev: false
 
-  /@vercel/next@4.5.1:
-    resolution: {integrity: sha512-lmq7M4L+IUQA+KPmcJSjqcGug0eNEd9lPUVzy3hWVjoWi6qKunxHOZw3H0U8UA1AsKKnz1Jub7zRMP0uLrJWvw==}
+  /@vercel/next@4.5.2:
+    resolution: {integrity: sha512-gUWExNdwdj6nFeEfiH1toPz5PNFbBZzEQ/PVyAGJcGvBCYiB5rjA1N2K4F0CWrTh7I//g/Qe1Xzq90FOcjU87g==}
     dependencies:
       '@vercel/nft': 0.27.10
     transitivePeerDependencies:
@@ -1127,12 +1127,14 @@ packages:
       - supports-color
     dev: false
 
-  /@vercel/remix-builder@5.2.3:
-    resolution: {integrity: sha512-SGQw/Ljzcp0WsaqE4oCWllvfvpndkLMWAi/8nhPFxq3+58RczSW13nf+ZKsgghvTIL5lu/jmY8UEaJAZYTvMUw==}
+  /@vercel/remix-builder@5.2.4:
+    resolution: {integrity: sha512-nQt2PR4sUi4kUyRm8mbc3cK1m3E4hEVPfu3yv6gsbAmWNGS3cnf+I8Ee1NvP2dGA+eQXQ7O1UYbsJWu4NSOvoA==}
     dependencies:
       '@vercel/error-utils': 2.0.3
       '@vercel/nft': 0.27.10
       '@vercel/static-config': 3.0.0
+      path-to-regexp: 6.1.0
+      path-to-regexp-updated: /path-to-regexp@6.3.0
       ts-morph: 12.0.0
     transitivePeerDependencies:
       - encoding
@@ -5289,8 +5291,8 @@ packages:
     resolution: {integrity: sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==}
     dev: false
 
-  /vercel@41.0.2:
-    resolution: {integrity: sha512-DhT6IGz4etkfQBCfS/4XampXP70VQ1BG7a2DbTZFIO+HHW8MYyknGLprX1rJgZJtJQyCeBWq/z0uiV0k6vvu1g==}
+  /vercel@41.0.3:
+    resolution: {integrity: sha512-2EBeSHdcafTIieutN4brBoPTNxDIr2EnYp5DpjBU7DuFffLDJI8KF0hToxz4itd1yLUoqd/T4JWe3cKuMgW04Q==}
     engines: {node: '>= 18'}
     hasBin: true
     dependencies:
@@ -5298,11 +5300,11 @@ packages:
       '@vercel/fun': 1.1.4
       '@vercel/go': 3.2.1
       '@vercel/hydrogen': 1.1.0
-      '@vercel/next': 4.5.1
+      '@vercel/next': 4.5.2
       '@vercel/node': 5.1.2
       '@vercel/python': 4.7.1
       '@vercel/redwood': 2.2.0
-      '@vercel/remix-builder': 5.2.3
+      '@vercel/remix-builder': 5.2.4
       '@vercel/ruby': 2.2.0
       '@vercel/static-build': 2.6.1
       chokidar: 4.0.0
