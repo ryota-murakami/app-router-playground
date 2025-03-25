@@ -50,7 +50,7 @@
     "autoprefixer": "10.4.21",
     "daisyui": "^5.0.9",
     "eslint": "8.57.0",
-    "eslint-config-next": "15.2.3",
+    "eslint-config-next": "15.2.4",
     "eslint-config-ts-prefixer": "1.14.1",
     "eslint-import-resolver-typescript": "3.8.7",
     "eslint-plugin-import": "2.31.0",
