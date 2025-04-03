@@ -8,9 +8,10 @@ import { Reviews, ReviewsSkeleton } from '#/app/streaming/_components/reviews'
 import { SingleProduct } from '#/app/streaming/_components/single-product'
 import { Ping } from '#/ui/ping'
 
-export const runtime = 'experimental-edge'
+export const runtime = 'edge'
 
-export default async function Page({ params }: { params: { id: string } }) {
+export default async function Page(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params
   return (
     <div className="space-y-8 lg:space-y-14">
       <SingleProduct

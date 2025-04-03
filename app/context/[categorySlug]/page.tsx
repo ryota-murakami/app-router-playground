@@ -3,11 +3,10 @@ import { Boundary } from '#/ui/boundary'
 
 import { Counter } from '../context-click-counter'
 
-export default async function Page({
-  params,
-}: {
-  params: { categorySlug: string }
+export default async function Page(props: {
+  params: Promise<{ categorySlug: string }>
 }) {
+  const params = await props.params
   const category = await getCategory({ slug: params.categorySlug })
 
   return (
