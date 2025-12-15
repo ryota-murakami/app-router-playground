@@ -30,7 +30,7 @@
     "react-redux": "^9.1.2",
     "redux": "^5.0.1",
     "server-only": "0.0.1",
-    "styled-components": "6.1.12",
+    "styled-components": "6.1.19",
     "styled-jsx": "^5.1.6",
     "tailwind-merge": "^2.4.0",
     "use-count-up": "3.0.1",
